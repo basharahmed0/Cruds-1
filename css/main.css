@@ -85,3 +85,28 @@ th,td{
 #DeleteAll{
     margin: 20px;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .cruds {
+    width: 100%;  
+    margin: 0;
+  }
+
+  .inputs input, 
+  .inputs button {
+    width: 100%; 
+    margin-bottom: 10px;
+  }
+
+  table {
+    font-size: 12px; 
+    display: block; 
+    overflow-x: auto; 
+  }
+}
+
