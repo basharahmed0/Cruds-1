@@ -145,8 +145,12 @@ function deleteitem(i){
 // delete all 
 
 function deleteall(){
+    
     product.splice(0);
     localStorage.clear();
+    mood = 'create';
+    create.innerHTML = 'Create';
+    count.style.display = 'block';
 
     showdata();
 
@@ -243,3 +247,4 @@ function searchbymood(id){
             document.getElementById('tbody').innerHTML = table;
 
     }
+
